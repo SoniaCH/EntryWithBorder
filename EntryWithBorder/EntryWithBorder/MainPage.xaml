@@ -4,7 +4,10 @@
              xmlns:local="clr-namespace:EntryWithBorder"
              x:Class="EntryWithBorder.MainPage">
     <StackLayout>
+    <StackLayout Padding="20" Orientation="Horizontal" VerticalOptions="Start">
         <!-- Place new controls here -->
-        <local:CustomEntry  Placeholder="test entry" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+        <Label Text="THIS IS A TEST" HorizontalOptions="Fill" VerticalOptions="Center"/>
+        <local:CustomEntry  Placeholder="test entry" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+    </StackLayout>
     </StackLayout>
 </ContentPage>
